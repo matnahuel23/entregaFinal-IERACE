@@ -61,89 +61,176 @@
     <!-- END logo -->
     <!-- inicio mi grilla con BS -->
     <main id="fotos">
-      <!-- inicio CONTAINER -->
       <section class="container-fluid">
-        <!-- Saque el titulo, no me gusta como queda
-          <h1 class="py-2 letraLight" >Fotos</h1> -->
-        <!-- inicio ROW -->
         <div class="row">
-          <!-- inicio CARD1 -->
-          <!-- modifico a 12 el md por si pongo el celu de costado que esta imagen sea grande y el resto de a 2 -->
-          <article id= "card1" class="col-sm-12 col-md-12 col-lg-4 mb-2 ">
-            <div class="card">
-              <img src="../images/fotosHD/faro.JPG" class="card-img-top" alt="el faro de Mar del Plata">
-              <div class="card-body">
-              <p class="card-text text-center">El Faro de la ciudad de Mar del Plata por la noche</p>
-            </div>
-          </article>
-           <!-- END card1 -->
-           <!-- inicio CARD2 -->
-           <article id= "card2" class="col-sm-12 col-md-6 col-lg-4 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/DJI_0320.JPG" class="card-img-top" alt="Costa de varese">
-              <div class="card-body">
-              <p class="card-text text-center">Vista nocturna de playa Cabo Corrientes</p>
-            </div>
-          </article>
-          <!-- END card2 -->
-           <!-- inicio CARD3 -->
-          <article id= "card3" class="col-sm-12 col-md-6 col-lg-4 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/cielo5.JPG" class="card-img-top" alt="costa de mar del plata al raz del agua">
-              <div class="card-body">
-              <p class="card-text text-center">Vista de la costa al raz del agua</p>
-            </div>
-          </article>
-          <article id= "card4" class="col-sm-12 col-md-6 col-lg-6 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/escollera.JPG" class="card-img-top" alt="Escollera Sur desde arriba">
-              <div class="card-body">
-              <p class="card-text text-center">La escollera Sur de Mar del Plata</p>
-            </div>
-          </article>
-          <article id= "card5" class="col-sm-12 col-md-6 col-lg-6 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/ballenas.JPG" class="card-img-top" alt="ballena con su cria">
-              <div class="card-body">
-              <p class="card-text text-center">Ballena adulta con su cria migrando a la Patagonia</p>
-            </div>
-          </article>
-          <article id= "card6" class="col-sm-12 col-md-6 col-lg-3 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/labrava.JPG" class="card-img-top" alt="Laguna La Brava">
-              <div class="card-body">
-              <p class="card-text text-center">Laguna La Brava</p>
-            </div>
-          </article>
-          <article id= "card7" class="col-sm-12 col-md-6 col-lg-3 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/aquifero.JPG" class="card-img-top" alt="Albufera de Mar Chiquita">
-              <div class="card-body">
-              <p class="card-text text-center">Albufera de Mar Chiquita</p>
-            </div>
-          </article>
-          <article id= "card8" class="col-sm-12 col-md-6 col-lg-3 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/cielodia.JPG" class="card-img-top" alt="costa de Mar del Plata">
-              <div class="card-body">
-              <p class="card-text text-center">Foto de la Costa de Mar del Plata</p>
-            </div>
-          </article>
-          <article id= "card9" class="col-sm-12 col-md-6 col-lg-3 mb-2">
-            <div class="card">
-              <img src="../images/fotosHD/cielodia2.JPG" class="card-img-top" alt="Foto de la Costa de Mar del Plata">
-              <div class="card-body">
-              <p class="card-text text-center">Foto de la Costa de Mar del Plata</p>
-            </div>
-          </article>
-          <!-- END card9 -->
+              <!-- IMAGEN 1 -->
+              <article id= "card1" class="col-sm-12 col-md-12 col-lg-4 mb-2 ">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img1">
+                    <img src="../images/fotosHD/ballenas.JPG" class="card-img-top rounded-3" alt="Ballena adulta con su cria migrando a la Patagonia">
+                  </button>
+                  <div class="modal fade" id="img1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/ballenas.JPG" class="imgDentroModal rounded-3" alt="Ballena adulta con su cria migrando a la Patagonia">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">Ballena adulta con su cria migrando a la Patagonia</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 1 -->
+              <article id= "card2" class="col-sm-12 col-md-12 col-lg-4 mb-2 ">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img2">
+                    <img src="../images/fotosHD/faro.JPG" class="card-img-top rounded-3" alt="El Faro de la ciudad de Mar del Plata por la noche">
+                  </button>
+                  <div class="modal fade" id="img2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/faro.JPG" class="imgDentroModal rounded-3" alt="El Faro de la ciudad de Mar del Plata por la noche">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">El Faro de la ciudad de Mar del Plata por la noche</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 2 -->
+              <article id= "card3" class="col-sm-12 col-md-12 col-lg-4 mb-2 ">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img3">
+                    <img src="../images/fotosHD/DJI_0320.JPG" class="card-img-top rounded-3" alt="Vista nocturna de playa Cabo Corrientes">
+                  </button>
+                  <div class="modal fade" id="img3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/DJI_0320.JPG" class="imgDentroModal rounded-3" alt="Vista nocturna de playa Cabo Corrientes">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">Vista nocturna de playa Cabo Corrientes</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 3 -->
+              <article id= "card4" class="col-sm-12 col-md-6 col-lg-6 mb-2">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img4">
+                    <img src="../images/fotosHD/cielo5.JPG" class="card-img-top rounded-3" alt="La escollera Sur de Mar del Plata">
+                  </button>
+                  <div class="modal fade" id="img4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/cielo5.JPG" class="imgDentroModal rounded-3" alt="La escollera Sur de Mar del Plata">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">La escollera Sur de Mar del Plata</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 4 -->
+              <article id= "card5" class="col-sm-12 col-md-6 col-lg-6 mb-2">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img5">
+                    <img src="../images/fotosHD/labrava.JPG" class="card-img-top rounded-3" alt="Laguna La Brava">
+                  </button>
+                  <div class="modal fade" id="img5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/labrava.JPG" class="imgDentroModal rounded-3" alt="Laguna La Brava">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">Laguna La Brava</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 5 -->
+              <article id= "card6" class="col-sm-12 col-md-6 col-lg-3 mb-2">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img6">
+                    <img src="../images/fotosHD/aquifero.JPG" class="card-img-top rounded-3" alt="Albufera de Mar Chiquit">
+                  </button>
+                  <div class="modal fade" id="img6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/aquifero.JPG" class="imgDentroModal rounded-3" alt="Albufera de Mar Chiquit">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">Albufera de Mar Chiquita</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 6 -->
+              <article id= "card7" class="col-sm-12 col-md-6 col-lg-3 mb-2">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img7">
+                    <img src="../images/fotosHD/cielodia.JPG" class="card-img-top rounded-3" alt="Foto de la Costa de Mar del Plata vista 1">
+                  </button>
+                  <div class="modal fade" id="img7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/cielodia.JPG" class="imgDentroModal rounded-3" alt="Foto de la Costa de Mar del Plata vista 1">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">Foto de la Costa de Mar del Plata</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 7 -->
+              <article id= "card8" class="col-sm-12 col-md-6 col-lg-3 mb-2">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img8">
+                    <img src="../images/fotosHD/cielodia2.JPG" class="card-img-top rounded-3" alt="Foto de la Costa de Mar del Plata vista 2">
+                  </button>
+                  <div class="modal fade" id="img8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/cielodia2.JPG" class="imgDentroModal rounded-3" alt="Foto de la Costa de Mar del Plata vista 2">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">Foto de la Costa de Mar del Plata</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 8 -->
+              <article id= "card9" class="col-sm-12 col-md-6 col-lg-3 mb-2">
+                <div class="card">
+                  <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#img9">
+                    <img src="../images/fotosHD/escollera.JPG" class="card-img-top rounded-3" alt="La escollera Sur de Mar del Plata">
+                  </button>
+                  <div class="modal fade" id="img9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered modal-xl">
+                      <div class="modal-content">
+                        <div class="modal-body py-0 px-0 rounded-3">
+                          <img src="../images/fotosHD/escollera.JPG" class="imgDentroModal rounded-3" alt="La escollera Sur de Mar del Plata">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <p class="card-text text-center">La escollera Sur de Mar del Plata</p>
+                </div>
+              </article>
+              <!-- FIN IMAGEN 9 -->                
         </div>
-      </div>
-      <!-- END row -->
+        <!-- FIN ROW -->
       </section>
-      <!-- END container -->
-    </main>
-    <!-- END grilla BS -->
+      <!-- FIN CONTAINER-FLUID -->
+  </main>
     <!-- inicio Footer con padding en eje y de 1-->
     <footer class="bg-grisClaro py-1">
       <a href="https://www.instagram.com/vision.mdq/" target="_blank">
