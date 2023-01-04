@@ -1,3 +1,3 @@
-# PreEntrega2-IERACE
-esta es mi segunda pre entrega para Coderhouse donde empiezo a usar Git y Boostrap
-Que la fuerza me acompañe! en esta linea estoy probando mis conocimientos de git y enlazar con Visual Studio
+# PreEntrega3-IERACE
+esta es mi tercera pre entrega para Coderhouse y modificare la 2da
+Que la fuerza me acompañe!
