@@ -1,0 +1,24 @@
+{
+  "name": "preentrega3ierace",
+  "version": "1.0.0",
+  "description": "es la 3er preentrega de coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass":"sass",
+    "sass:watch":"sass --watch scss/estilo.scss css/estilo.scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matnahuel23/PreEntrega3-IERACE.git"
+  },
+  "author": "Matias Nahuel Ierace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matnahuel23/PreEntrega3-IERACE/issues"
+  },
+  "homepage": "https://github.com/matnahuel23/PreEntrega3-IERACE#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}
