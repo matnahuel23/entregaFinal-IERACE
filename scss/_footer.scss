@@ -5,15 +5,12 @@ footer{
     align-items: center;
     justify-content: flex-end;
     margin-bottom: 0;
-}
-
-footer img{
-    height: 30px;
-    width: 30px;
-    margin-right: 20px;
-    margin-bottom: 0;
-}
-
-.bg-grisClaro{
     background-color: $bgColorAux;
+    margin-top: 20px;
+    img {
+            height: 30px;
+            width: 30px;
+            margin-right: 20px;
+            margin-bottom: 0;
+    }
 }

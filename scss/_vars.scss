@@ -1,12 +1,16 @@
 //colores fuente
-$fontColorMain:black;
-$fontColorSecond: lightgray;
-$fontColorAux: gray;
+$fontColorMain:lightgray;
+$fontColorSecond: black;
+$fontColorAux: white;
+$fontColorBtn: white;
+$fontColorBtnHover: black;
 
 // colores bg
-$bgColorMain:lightgray;
-$bgColorSecond: rgb(40, 39, 39);
-$bgColorAux: black;
+$bgColorMain:black;
+$bgColorSecond: lightgray;
+$bgColorAux: rgb(95, 92, 92);
+$bgColorBtn: rgb(108, 105, 105);
+$bgColorBtnHover: white;
 
 // fuente
 $fontMain: 'Open Sans', sans-serif;

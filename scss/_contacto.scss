@@ -12,13 +12,11 @@ label{
 }
 
 .myButton{
-    color: $fontColorSecond;
-    background-color:$bgColorSecond;
-}
-
-/*  boton e input */
-.myButton:hover {
-    color: $fontColorMain;
-    background-color:$bgColorMain;
+    color: $fontColorBtn;
+    background-color:$bgColorBtn;
+    &:hover {
+        color: $fontColorBtnHover;
+        background-color:$bgColorBtnHover;
+    }
 }
 

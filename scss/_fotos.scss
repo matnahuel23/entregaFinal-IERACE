@@ -15,21 +15,19 @@
 /* Fotos y Videos*/
 .container-fluid{
     background-color: $bgColorMain;
-}
-
-.container-fluid .row .card{
+    .row .card{
     border:solid black 2px;
     background-color: rgb(46, 43, 43);
     color: $fontColorMain;
     text-align: center;
+    }
 }
 
 ul [class="dropdown-menu show"]{
     background-color: rgb(44, 41, 41);
-}
-
-ul li [class="dropdown-item"]{
+    li [class="dropdown-item"]{
     color: rgb(171, 160, 160);
+    }
 }
 
 /* DENTRO DE MODAL */

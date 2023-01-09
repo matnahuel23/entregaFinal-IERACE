@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:wght@300;400&display=swap");
 @import 'animate.css';
+
 h1 {
   padding-bottom: 20px;
   text-decoration: underline;
   text-align: center;
-  color: black;
+  color: lightgray;
+  font-size: 2em;
 }
 
 body {
   display: grid;
+  width: 100%;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
   margin-bottom: 0;
+  background-color: black;
 }
 
 /* Logo principal */
@@ -21,7 +25,7 @@ header {
   height: 20vh;
   justify-content: center;
   align-items: center;
-  background-color: lightgray;
+  background-color: black;
 }
 
 .elCursor {
@@ -31,11 +35,32 @@ header {
   transition: all 1s;
 }
 
-.fijarNav {
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* Acomodo mi presentacion del main */
+}
+.contenedor .presentacion {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  color: lightgray;
+  text-align: center;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 2em;
+}
+
+.navegador {
+  display: flex;
   position: sticky;
-  z-index: 2;
+  width: 100%;
   top: 0;
   left: 0;
+  z-index: 2;
+  background-color: black;
+  color: lightgray;
 }
 
 footer {
@@ -45,17 +70,14 @@ footer {
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 0;
+  background-color: rgb(95, 92, 92);
+  margin-top: 20px;
 }
-
 footer img {
   height: 30px;
   width: 30px;
   margin-right: 20px;
   margin-bottom: 0;
-}
-
-.bg-grisClaro {
-  background-color: black;
 }
 
 #contact {
@@ -72,14 +94,12 @@ label {
 }
 
 .myButton {
-  color: lightgray;
-  background-color: rgb(40, 39, 39);
+  color: white;
+  background-color: rgb(108, 105, 105);
 }
-
-/*  boton e input */
 .myButton:hover {
   color: black;
-  background-color: lightgray;
+  background-color: white;
 }
 
 /* imagenes carousel */
@@ -97,21 +117,19 @@ label {
 
 /* Fotos y Videos*/
 .container-fluid {
-  background-color: lightgray;
+  background-color: black;
 }
-
 .container-fluid .row .card {
   border: solid black 2px;
   background-color: rgb(46, 43, 43);
-  color: black;
+  color: lightgray;
   text-align: center;
 }
 
 ul [class="dropdown-menu show"] {
   background-color: rgb(44, 41, 41);
 }
-
-ul li [class=dropdown-item] {
+ul [class="dropdown-menu show"] li [class=dropdown-item] {
   color: rgb(171, 160, 160);
 }
 
@@ -123,7 +141,7 @@ ul li [class=dropdown-item] {
 }
 
 * {
-  font-family: black;
+  font-family: lightgray;
   margin: 0;
   padding: 0;
 }
@@ -141,12 +159,6 @@ ul li [class=dropdown-item] {
   animation: 2.5s cubic-bezier(0.25, 1, 0.3, 1) square-in-center both;
 }
 
-.contenedor {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
 /*  Animacion que use en la Preentrega2 pero no usare en la 3 */
 .animacion1 {
   padding-top: 10vh;
@@ -154,19 +166,8 @@ ul li [class=dropdown-item] {
   animation-name: square-in-center;
   animation-duration: 2s;
   animation-delay: 3s;
-  background-color: lightgray;
-  color: black;
-  text-align: center;
-  padding-right: 25vw;
-  padding-left: 25vw;
-}
-
-/* Acomodo mi presentacion del main */
-.presentacion {
-  padding-top: 5vh;
-  padding-bottom: 5vh;
-  background-color: lightgray;
-  color: black;
+  background-color: black;
+  color: lightgray;
   text-align: center;
   padding-right: 25vw;
   padding-left: 25vw;
