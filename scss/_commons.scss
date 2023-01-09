@@ -2,7 +2,7 @@ h1{
     padding-bottom: 20px;
     text-decoration: underline;
     text-align: center;
-    color: $fontColor;
+    color: $fontColorMain;
 }
 
 // creo la clase fijar nav para que cuando mueva el scroll se mantenga, y le cambio el indez sino me quedaba debajo de la foto
@@ -20,7 +20,7 @@ header{
     height: 20vh;
     justify-content: center;
     align-items: center;
-    background-color: $bgColor;  
+    background-color: $bgColorMain;  
 }
 
 .elCursor {

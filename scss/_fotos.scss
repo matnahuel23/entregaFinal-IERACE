@@ -14,13 +14,13 @@
 
 /* Fotos y Videos*/
 .container-fluid{
-    background-color: black;
+    background-color: $bgColorMain;
 }
 
 .container-fluid .row .card{
     border:solid black 2px;
     background-color: rgb(46, 43, 43);
-    color: lightgray;
+    color: $fontColorMain;
     text-align: center;
 }
 

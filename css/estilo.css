@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:wght@300;400&display=swap");
 @import 'animate.css';
-
 h1 {
   padding-bottom: 20px;
   text-decoration: underline;
@@ -72,10 +71,15 @@ label {
   padding-right: 1em;
 }
 
+.myButton {
+  color: lightgray;
+  background-color: rgb(40, 39, 39);
+}
+
 /*  boton e input */
 .myButton:hover {
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: lightgray;
 }
 
 /* imagenes carousel */
@@ -93,13 +97,13 @@ label {
 
 /* Fotos y Videos*/
 .container-fluid {
-  background-color: black;
+  background-color: lightgray;
 }
 
 .container-fluid .row .card {
   border: solid black 2px;
   background-color: rgb(46, 43, 43);
-  color: lightgray;
+  color: black;
   text-align: center;
 }
 
@@ -119,7 +123,7 @@ ul li [class=dropdown-item] {
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: black;
   margin: 0;
   padding: 0;
 }
@@ -150,7 +154,7 @@ ul li [class=dropdown-item] {
   animation-name: square-in-center;
   animation-duration: 2s;
   animation-delay: 3s;
-  background-color: white;
+  background-color: lightgray;
   color: black;
   text-align: center;
   padding-right: 25vw;
@@ -161,8 +165,8 @@ ul li [class=dropdown-item] {
 .presentacion {
   padding-top: 5vh;
   padding-bottom: 5vh;
-  background-color: black;
-  color: white;
+  background-color: lightgray;
+  color: black;
   text-align: center;
   padding-right: 25vw;
   padding-left: 25vw;

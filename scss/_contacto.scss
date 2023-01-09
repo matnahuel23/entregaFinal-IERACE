@@ -11,9 +11,14 @@ label{
     padding-right: 1em;
 }
 
+.myButton{
+    color: $fontColorSecond;
+    background-color:$bgColorSecond;
+}
+
 /*  boton e input */
 .myButton:hover {
-    color: white;
-    background-color: black;
+    color: $fontColorMain;
+    background-color:$bgColorMain;
 }
 
