@@ -1,0 +1,19 @@
+#contact{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+label{
+    display: inline-block;
+    width: 80px;
+    padding-right: 1em;
+}
+
+/*  boton e input */
+.myButton:hover {
+    color: white;
+    background-color: black;
+}
+

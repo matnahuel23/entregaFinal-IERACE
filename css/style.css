@@ -20,7 +20,7 @@ h1{
 }
 
 .letraDark {
-        color: rgb(6, 6, 6);
+        color: rgb(6, 6, 5);
 }
 
 /* creo la clase fijar nav para que cuando mueva el scroll se mantenga, y le cambio el indez sino me quedaba debajo de la foto */
@@ -38,8 +38,7 @@ header{
     height: 20vh;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    
+    background-color: black;  
 }
 
 /* hago esto para usar grid y que el footer quede abajo pase lo que pase */
