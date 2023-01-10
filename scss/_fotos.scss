@@ -5,14 +5,7 @@
     object-fit: cover;
 }
 
-
-/* Videos */
-#videos .container-fluid{
-    padding-left: $padL;
-    padding-right: $padR;
-}
-
-/* Fotos y Videos*/
+/* Fotos */
 .container-fluid{
     background-color: $bgColorMain;
     .row .card{
