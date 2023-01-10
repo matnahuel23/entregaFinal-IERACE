@@ -1,12 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500&family=Open+Sans:wght@300;400&display=swap");
 @import 'animate.css';
-
 h1 {
-  padding-bottom: 20px;
-  text-decoration: underline;
+  padding-bottom: 2vh;
+  text-decoration: solid;
   text-align: center;
   color: lightgray;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 body {
@@ -39,17 +38,15 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* Acomodo mi presentacion del main */
+  padding-top: 2vh;
+  padding-bottom: 2vh;
 }
 .contenedor .presentacion {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-inline: 20%;
   background-color: black;
   color: lightgray;
   text-align: center;
-  padding-right: 20px;
-  padding-left: 20px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .navegador {
@@ -66,17 +63,17 @@ header {
 footer {
   display: flex;
   width: 100%;
-  height: 10vh;
+  height: 5vh;
   align-items: center;
   justify-content: flex-end;
   margin-bottom: 0;
-  background-color: rgb(95, 92, 92);
-  margin-top: 20px;
+  background-color: rgb(170, 160, 160);
+  margin-top: 10px;
 }
 footer img {
   height: 30px;
   width: 30px;
-  margin-right: 20px;
+  margin-right: 10px;
   margin-bottom: 0;
 }
 
@@ -84,13 +81,14 @@ footer img {
   display: flex;
   width: 100%;
   justify-content: center;
-  padding-bottom: 5%;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
 
 label {
   display: inline-block;
   width: 80px;
-  padding-right: 1em;
+  padding-right: 15%;
 }
 
 .myButton {
@@ -102,6 +100,11 @@ label {
   background-color: white;
 }
 
+#form {
+  width: 50%;
+  text-align: center;
+}
+
 /* imagenes carousel */
 .imgCarouselSize {
   width: 100%;
@@ -111,8 +114,8 @@ label {
 
 /* Videos */
 #videos .container-fluid {
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 /* Fotos y Videos*/
@@ -130,7 +133,7 @@ ul [class="dropdown-menu show"] {
   background-color: rgb(44, 41, 41);
 }
 ul [class="dropdown-menu show"] li [class=dropdown-item] {
-  color: rgb(171, 160, 160);
+  color: rgb(198, 196, 196);
 }
 
 /* DENTRO DE MODAL */
@@ -161,16 +164,15 @@ ul [class="dropdown-menu show"] li [class=dropdown-item] {
 
 /*  Animacion que use en la Preentrega2 pero no usare en la 3 */
 .animacion1 {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
   animation-name: square-in-center;
   animation-duration: 2s;
   animation-delay: 3s;
   background-color: black;
   color: lightgray;
   text-align: center;
-  padding-right: 25vw;
-  padding-left: 25vw;
+  padding-inline: 20%;
 }
 
 /*# sourceMappingURL=estilo.css.map */

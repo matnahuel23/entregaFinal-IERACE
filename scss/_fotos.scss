@@ -8,8 +8,8 @@
 
 /* Videos */
 #videos .container-fluid{
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: $padL;
+    padding-right: $padR;
 }
 
 /* Fotos y Videos*/
@@ -19,7 +19,7 @@
     border:solid black 2px;
     background-color: rgb(46, 43, 43);
     color: $fontColorMain;
-    text-align: $textCenter;
+    text-align: center;
     }
 }
 

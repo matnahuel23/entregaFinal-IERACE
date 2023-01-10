@@ -9,6 +9,7 @@ $fontColorBtnHover: black;
 $bgColorMain:black;
 $bgColorSecond: lightgray;
 $bgColorAux: rgb(95, 92, 92);
+$bgColorFooter: rgb(170, 160, 160);
 $bgColorBtn: rgb(108, 105, 105);
 $bgColorBtnHover: white;
 
@@ -19,8 +20,12 @@ $fontSecond: 'Open Sans', sans-serif;
 //size fuente
 $fontXXL: 3em;
 $fontLg: 2em;
-$fontMd: 1em;
-$fontSm: 0.5em;
+$fontMd: 1.5em;
+$fontSm: 1em;
 
-//alineacion text
-$textCenter: center;
+//padding y margin
+$padTop: 2vh;
+$padBot:2vh;
+$padR:15%;
+$padL:15%;
+$padInl:20%;

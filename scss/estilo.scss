@@ -37,15 +37,14 @@
 
 /*  Animacion que use en la Preentrega2 pero no usare en la 3 */
 .animacion1 {
-        padding-top: 10vh;
-        padding-bottom: 10vh;
+        padding-top: $padTop;
+        padding-bottom: $padBot;
         animation-name:square-in-center;
         animation-duration: 2s;
         animation-delay: 3s;
         background-color: $bgColorMain;
         color: $fontColorMain;
-        text-align: $textCenter;
-        padding-right: 25vw;
-        padding-left: 25vw;
+        text-align: center;
+        padding-inline: $padInl;
 }
 

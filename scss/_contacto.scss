@@ -2,13 +2,14 @@
     display: flex;
     width: 100%;
     justify-content: center;
-    padding-bottom: 5%;
+    padding-bottom: $padBot;
+    padding-top: $padTop;
 }
 
 label{
     display: inline-block;
     width: 80px;
-    padding-right: 1em;
+    padding-right: $padR;
 }
 
 .myButton{
@@ -20,3 +21,7 @@ label{
     }
 }
 
+#form {
+    width: 50%;
+    text-align: center;
+}
