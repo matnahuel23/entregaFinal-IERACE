@@ -1,7 +1,9 @@
-@mixin textos (){
-
-}
-
-@mixin flex (){
-    
+@each $icono in facebook, twitter, youtube, instagram, whatsapp{
+	.#{$icono}-icon{
+		background-image:url(../images/redes/redessvg/#{$icono}.svg);
+		width: 30px;
+		height: 30px;
+		background-size:100%;
+		margin-right: 10px;
+	}
 }

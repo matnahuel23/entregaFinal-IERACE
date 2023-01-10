@@ -1,6 +1,6 @@
 h1{
     padding-bottom: $padBot;
-    text-decoration:solid;
+    text-decoration:dotted;
     text-align: center;
     color: $fontColorMain;
     font-size: $fontMd;
@@ -38,7 +38,6 @@ header{
     flex-direction: column;
     align-items: center;
     padding-top: $padTop;
-    padding-bottom: $padBot;
       .presentacion {
         padding-inline: $padInl;
         background-color: $bgColorMain;
