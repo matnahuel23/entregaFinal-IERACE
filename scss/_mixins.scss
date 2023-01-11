@@ -26,3 +26,22 @@
     @if $align == left {text-align: left}
     @if $align == center{text-align: center}
 }
+
+@each $tools in drone, camera, gopro{
+	.#{$tools}-tool{
+		background-image:url(../images/tools/#{$tools}.svg);
+		width: 200px;
+		height: 200px;
+		background-size:100%;
+		margin-right: 10px;
+	}
+}
+
+@mixin acord($dir,$bgColorAc,$bgColorAcHover){
+    display: flex;
+    flex-direction: $dir;
+    background-color: $bgColorAc;  
+    &:hover{
+        background-color: $bgColorAcHover;
+    }  
+}

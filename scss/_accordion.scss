@@ -1,0 +1,18 @@
+.acordeonI{
+        @include acord(row,$bgColorSecond,$bgColorAux);
+}
+
+.acordeonC{
+        @include acord(column,$bgColorSecond,$bgColorAux);
+}
+
+.acordeonD{
+        @include acord(row-reverse,$bgColorSecond,$bgColorAux);
+}
+
+#nosotros {
+    margin-top: $marT;
+    margin-bottom: $marB;
+    background-color: $bgColorMain;
+    width: 70%;
+}
