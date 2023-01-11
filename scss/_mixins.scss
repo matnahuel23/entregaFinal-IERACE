@@ -22,8 +22,8 @@
 @each $tools in drone, camera, gopro{
 	.#{$tools}-tool{
 		background-image:url(../images/tools/#{$tools}.svg);
-		width: 200px;
-		height: 200px;
+		width: 180px;
+		height: 180px;
 		background-size:100%;
 		margin-right: 10px;
 	}
