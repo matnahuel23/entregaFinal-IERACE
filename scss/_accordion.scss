@@ -3,7 +3,21 @@
 }
 
 .acordeonC{
-        @include acord(column,$bgColorSecond,$bgColorAux);
+        @include acord(column,$bgColorAux,$bgColorSecond);
+        
+        }
+
+.acordeonC-bordeblack{
+                @extend .acordeonC;
+                border: 1px solid black;
+}
+
+.accordion-body-black{
+                background-color: black;
+                color: white;
+                padding-left: 20%;
+                padding-right: 20%;
+                text-align: center;
 }
 
 .acordeonD{

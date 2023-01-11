@@ -46,11 +46,3 @@ header{
         font-size: $fontMd;
       }
 }
-
-.box{
-    @include flex(row,center,center, nowrap);
-}
-
-.box2{
-	@include flex (column,flex-end,flex-start,wrap);
-}
