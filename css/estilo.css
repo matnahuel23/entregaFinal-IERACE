@@ -108,13 +108,7 @@ label {
   object-fit: cover;
 }
 
-/* Videos */
-#videos .container-fluid {
-  padding-left: 15%;
-  padding-right: 15%;
-}
-
-/* Fotos y Videos*/
+/* Fotos */
 .container-fluid {
   background-color: black;
 }
