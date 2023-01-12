@@ -175,24 +175,24 @@ ul [class="dropdown-menu show"] li [class=dropdown-item] {
 
 .drone-tool {
   background-image: url(../images/tools/drone.svg);
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background-size: 100%;
   margin-right: 10px;
 }
 
 .camera-tool {
   background-image: url(../images/tools/camera.svg);
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background-size: 100%;
   margin-right: 10px;
 }
 
 .gopro-tool {
   background-image: url(../images/tools/gopro.svg);
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background-size: 100%;
   margin-right: 10px;
 }
