@@ -3,7 +3,8 @@ h1{
     text-decoration:dotted;
     text-align: center;
     color: $fontColorMain;
-    font-size: $fontMd;
+    font-size: $fontLg;
+    font-family: $fontSecond;
 }
 
 // creo la clase fijar nav para que cuando mueva el scroll se mantenga, y le cambio el indez sino me quedaba debajo de la foto
