@@ -68,6 +68,13 @@ header {
   color: lightgray;
 }
 
+ul [class="dropdown-menu show"] {
+  background-color: rgb(88, 84, 84);
+}
+ul [class="dropdown-menu show"] li [class=dropdown-item] {
+  color: black;
+}
+
 footer {
   height: 8vh;
   margin-bottom: 0;
@@ -203,13 +210,6 @@ label {
   background-color: rgb(46, 43, 43);
   color: lightgray;
   text-align: center;
-}
-
-ul [class="dropdown-menu show"] {
-  background-color: rgb(44, 41, 41);
-}
-ul [class="dropdown-menu show"] li [class=dropdown-item] {
-  color: rgb(198, 196, 196);
 }
 
 /* DENTRO DE MODAL */
