@@ -19,7 +19,7 @@
     @if $align == center{text-align: center}
 }
 
-@each $tools in drone, camera, gopro{
+@each $tools in drone, camera, gopro, desktop{
 	.#{$tools}-tool{
 		background-image:url(../images/tools/#{$tools}.svg);
 		width: 180px;

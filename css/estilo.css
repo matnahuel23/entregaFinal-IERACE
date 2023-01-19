@@ -283,6 +283,14 @@ label {
   margin-right: 10px;
 }
 
+.desktop-tool {
+  background-image: url(../images/tools/desktop.svg);
+  width: 180px;
+  height: 180px;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
 .acordeonI {
   display: flex;
   flex-direction: row;
